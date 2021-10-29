@@ -1,10 +1,30 @@
-# Getting Started with Create React App
+# Лайт-сборка Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Базовая сборка Create React App + Prettier + Husky + ESLint + Modern Normalize + deploy gh-pages
 
-## Available Scripts
+## Для установки сборки:
 
-In the project directory, you can run:
+1. Копируем этот репозиторий себе.
+
+2. Открываем в VSCode и запускаем в консоли команду `npm ci` чтобы установить загрузчики и плагины из перечня
+   "package-lock.json".
+
+3. Меняем под себя значения ключа в файле "package-lock.json":
+   `"name": "react-default"` на `"name": "имя_вашего_проекта"` или просто `"name": ""`
+
+4. Меняем под себя значения ключей в файле "package.json":
+   1. `"name": "react-default"` на `"name": "имя_вашего_проекта"` или просто `"name": ""`;
+   2. В параметрах "repository" - `"url": "git+https://github.com/Eduard-Konovka/react-default.git"` на
+      `"url": "git+https://github.com/ваше_имя_на_ГитХабе/имя_вашего_проекта.git"`;
+   3. В параметрах "bugs" - `"url": "https://github.com/Eduard-Konovka/react-default.git/issues"` на
+      `"url": "https://github.com/ваше_имя_на_ГитХабе/имя_вашего_проекта.git/issues"`;
+   4. `"author": "Eduard Konovka <ed098ua@gmail.com>"` на `"author": "Ваше_имя <ваш_e-mail>"` или просто `"author": ""`;
+   5. `"homepage": "https://Eduard-Konovka.github.io/react-default"` на
+      `"homepage": "https://ваше_имя_на_ГитХабе.github.io/имя_вашего_проекта"`.
+
+## Команды скриптов в консоли bash:
+
+Вас интересуют первых два скрипта: `npm start` и `npm run deploy` :)
 
 ### `npm start`
 
@@ -13,6 +33,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `npm run deploy`
+
+Deploy development files to GitHub.
 
 ### `npm test`
 
