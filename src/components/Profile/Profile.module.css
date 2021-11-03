@@ -1,0 +1,31 @@
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+  }
+
+  .profile {
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgb(216, 253, 5);
+      width: 320px;
+      -webkit-box-shadow: 0px 0px 20px 10px rgba(105, 55, 8, 0.2);
+      -moz-box-shadow: 0px 0px 20px 10px rgba(105, 55, 8, 0.2);
+      box-shadow: 0px 0px 20px 10px rgba(105, 55, 8, 0.2);
+  }
+
+  .avatar {
+      margin: 10px auto;
+      display: block;
+      width: 100%;
+      height: auto;
+  }
