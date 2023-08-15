@@ -1,28 +1,28 @@
-**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**
+**Read in other languages: [Russian](README.md), [Ukrainian](README.ua.md).**
 
-# Критерии приема
+# Acceptance criteria
 
-- Создан репозиторий `goit-react-hw-01-components`.
-- Компоненты всех заданий рендерятся на одной странице, внутри общего
-  контнейра - корневого компонента `<App>`.
-- При сдаче домашней работы есть ссылка на репозиторий с исходным кодом проекта.
-- В шапке репозитория есть ссылка на живую страницу на `GitHub pages`.
-- При посещении рабочей страницы (GitHub pages) задания, в консоли нету ошибок и
-  предупреждений.
-- Для каждого компонента есть отдельная папка с файлом React-компонента и файлом
-  стилей.
-- Для компонентов описаны `propTypes`, и, где необходимо, `defaultProps`.
-- Все что компонент ожидает в виде пропсов, передается ему при вызове.
-- Имена компонентов понятные, описательные.
-- JS-код чистый и понятный, используется `Prettier`.
-- Стилизация делается только `SASS`, `CSS-модулями` или `Styled Components`,
-  поэтому классы в результирующем DOM могут отличаться от примеров.
-- Достаточно базовой стилизации приложения, в первую очередь оно должно
-  работать, а уже потом быть красивое. Выделяй 20% времени на CSS и 80% на JS.
+- The `goit-react-hw-01-components` repository has been created.
+- Components of all jobs are rendered on the same page, inside a common
+  Container - the root component `<App>`.
+- When you submit your homework, there is a link to a repository with the source code for the project.
+- In the repository header, there is a link to a live page on `GitHub pages`.
+- When visiting the working page (GitHub pages) of the job, there are no errors or
+  warnings.
+- There is a separate folder for each component with a React component file and a file of
+  styles.
+- The `propTypes` and, where necessary, `defaultProps` are described for the components.
+- Whatever the component expects as props is passed to it when it is called.
+- Component names are clear and descriptive.
+- JS code is clean and clear, and `Prettier` is used.
+- Styling is done only by `SASS`, `CSS modules`, or `Styled Components`,
+  so the classes in the resulting DOM may differ from the examples.
+- Basic styling of the application is enough, first of all, it must
+  work first, and then it should be pretty. Spend 20% of your time on CSS and 80% on JS.
 
-## Задания
+## Assignments
 
-- [Задание 1 - Профиль социальной сети](./social-profile/)
-- [Задание 2 - Секция статистики](./statistics/)
-- [Задание 3 - Список друзей](./friend-list/)
-- [Задание 4 - История транзакций](./transaction-history/)
+- [Assignment 1 - Social Network Profile](./social-profile/)
+- [Assignment 2 - Statistics Section](./statistics/)
+- [Task 3 - Friends List](./friend-list/)
+- [Task 4 - Transaction History](./transaction-history/)
